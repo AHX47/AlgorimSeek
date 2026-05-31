@@ -18,7 +18,7 @@ Total dataset size: **~5.3M tokens** (text + vision annotations).
 
 **Model:** DeepSeek Coder / Qwen2.5‑Coder (7B)  
 **Task:** Text → Algorim code, code explanation, algorithmic reasoning  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AHX47/AlgorimSeek/blob/main/AlgorimSeek_FineTuning.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AHX47/AlgorimSeek/blob/main/notebooks/AlgorimSeek_FineTuning.ipynb)
 
 
 ...
