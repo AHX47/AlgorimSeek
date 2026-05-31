@@ -38,7 +38,8 @@ The datasets included in the project are:
 - **algorim_execution_traces.json** – step‑by‑step execution traces for debugging and /compile commands.
 - **algorim_extra.json** – additional command examples (e.g., `/imagine`, `/debug`).
 - **Download zip**
-- [...](https://github.com/AHX47/AlgorimSeek/releases/tag/1.0)
+- [.Download Datasets.](https://github.com/AHX47/AlgorimSeek/releases/tag/1.0)
+- [.Hugging Face](https://huggingface.co/Abdohak47)
 
 Additionally, the following directories contain raw data:
 - **1000_code_dataset/** – 1000 original Algorim source files.
