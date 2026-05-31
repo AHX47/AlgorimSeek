@@ -18,7 +18,7 @@ Total dataset size: **~5.3M tokens** (text + vision annotations).
 
 **Model:** DeepSeek Coder / Qwen2.5‑Coder (7B)  
 **Task:** Text → Algorim code, code explanation, algorithmic reasoning  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abdohak47/AlgorimSeek/blob/main/AlgorimSeek_FineTuning.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AHX47/AlgorimSeek/blob/main/AlgorimSeek_FineTuning.ipynb)
 
 
 ...
@@ -37,14 +37,15 @@ The datasets included in the project are:
 - **algorim_vision_training.json** – vision‑language dataset (1.2 MB) pairing code images with prompts and responses.
 - **algorim_execution_traces.json** – step‑by‑step execution traces for debugging and /compile commands.
 - **algorim_extra.json** – additional command examples (e.g., `/imagine`, `/debug`).
-- **Download zip**()
+- **Download zip**
+- [...](https://github.com/AHX47/AlgorimSeek/releases/tag/1.0)
 
 Additionally, the following directories contain raw data:
 - **1000_code_dataset/** – 1000 original Algorim source files.
 - **200_image_dataset/** – 200 rendered PNG images of code snippets.
 
 ### Training
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abdohak47/AlgorimSeek/blob/main/AlgorimSeek_Training.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AHX47/AlgorimSeek/blob/main/AlgorimSeek_Training.ipynb)
 ```bash
 python train_llm.py \
   --model deepseek-ai/deepseek-coder-6.7b-instruct \
